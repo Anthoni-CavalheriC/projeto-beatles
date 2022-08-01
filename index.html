@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible"
+	content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Projeto Beatles</title>
+	<link rel="shortcut icon" href="src/images/beatles-logo-fundo.png" type="image/x-icon">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Prompt&family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
+
+
+	<link rel="stylesheet" href="src/css/reset.css">
+	<link rel="stylesheet" href="src/css/styles.css">
+	<link rel="stylesheet" href="src/css/responsivo.css">
+
+</head>
+<body>
+	<header class="cabecalho">
+		<img src="src/images/beatles-logo-fundo.png" alt="logo" class="logo-beatles" />
+		<h1 class="titulo">The Beatles Cards</h1>
+	</header>
+
+	<main class="beatles-slider">
+		<button class="btn-seta btn-voltar" id="btn-voltar">
+			<img src="src/images/seta.png" alt="seta voltar" />
+		</button>
+
+		<ul class="lista-beatles">
+			<li class="cartao selecionado fundo-1">
+				<div class="informacoes">
+					<h2 class="nome paul">Paul McCartney</h2>
+					<p class="instrumentos">Piano/Violão</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="src/images/paul-mccartney.png" alt="Paul McCartney" class="imagem-beatle-paul" />	
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">James Paul McCartney é um cantor, compositor, multi-instrumentista, empresário, produtor musical,
+					cinematográfico e ativista dos direitos dos animais britânico. McCartney alcançou fama mundial como membro 
+					da banda de rock britânica The Beatles, com John Lennon, George Harrison e Ringo Starr. Lennon e McCartney 
+					foram uma das mais influentes e bem sucedidas parcerias musicais de todos os tempos, "escrevendo as canções 
+					mais populares da história do rock". Após a dissolução dos Beatles em 1970, McCartney lançou-se numa 
+					carreira solo de sucessos, formou uma banda com sua primeira mulher Linda McCartney, os Wings. Ele também 
+					trabalhou com música clássica, eletrônica e trilhas sonoras.</p>
+				</div>
+			</li>
+
+			<li class="cartao fundo-2">
+				<div class="informacoes">
+					<h2 class="nome lennon">John Lennon</h2>
+					<p class="instrumentos">Guitarra/Vocal</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="src/images/john-lennon.png" alt="John Lennon" class="imagem-beatle-lennon" />	
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">John Winston Ono Lennon foi um cantor, compositor e ativista da paz britânico que fundou os Beatles, a banda 
+					de maior sucesso comercial na história da música popular. Sua parceria de composição com o colega de banda 
+					Paul McCartney foi uma das mais célebres da história da música. Juntamente com George Harrison e Ringo Starr, o
+					grupo alcançou fama mundial durante a década de 1960. Em 1969, Lennon começou a Plastic Ono Band com sua 
+					segunda esposa, Yoko Ono, e continuou a seguir carreira solo após a separação dos Beatles em abril de 1970.</p>
+				</div>
+			</li>
+
+			<li class="cartao fundo-3">
+				<div class="informacoes">
+					<h2 class="nome george">George Harrison</h2>
+					<p class="instrumentos">Guitarra</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="src/images/george-harrison.png" alt="George Harrison" class="imagem-beatle-george" />	
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">George Harrison foi um guitarrista, cantor, compositor, produtor musical e cinematográfico britânico que obteve
+					fama internacional como guitarrista dos Beatles. Geralmente chamado de "o Beatle quieto", Harrison aderiu ao
+					hinduísmo e ajudou a ampliar os horizontes dos outros Beatles assim como seu público ocidental ao incorporar
+					instrumentos indianos na música do grupo. Embora a maioria das canções da banda fossem escritas por John
+					Lennon e Paul McCartney, a maioria dos álbuns dos Beatles, a partir de 1965, continham, pelo menos, duas
+					composições de Harrison. Suas músicas para o grupo incluem "Taxman", "Within You Without You", "While My Guitar
+					Gently Weeps", "Here Comes the Sun" e "Something". Esta última se tornou a segunda música mais regravada dos
+					Beatles, perdendo apenas para "Yesterday".</p>
+				</div>
+			</li>
+
+			<li class="cartao fundo-4">
+				<div class="informacoes">
+					<h2 class="nome ringo">Ringo Starr</h2>
+					<p class="instrumentos">Bateria</p>
+				</div>
+
+				<div class="container-imagem">
+					<img src="src/images/ringo-starr.png" alt="Ringo Starr" class="imagem-beatle-ringo" />	
+				</div>
+
+				<div class="descricao">
+					<h3 class="titulo">Descrição</h3>
+					<p class="texto">Richard Starkey mais conhecido pelo seu nome artístico Ringo Starr, é um músico, compositor e ator britânico, 
+					que ganhou fama como baterista dos Beatles. Além de atuar como baterista, Starr foi intérprete de canções de 
+					sucesso dos Beatles, como "With a Little Help from My Friends", "Yellow Submarine", "Good Night" e seus covers 
+					de "Boys" e "Act Naturally". Ele também compôs e cantou "Don't Pass Me By" e "Octopus's Garden", e é creditado 
+					como co-compositor em outras, incluindo "What Goes On".</p>
+				</div>
+			</li>
+		</ul>
+
+		<button class="btn-seta" id="btn-avancar">
+			<img src="src/images/seta.png" alt="seta avançar" />
+		</button>
+	</main>
+
+	<script src="src/js/index.js"></script>
+</body>
+</html>

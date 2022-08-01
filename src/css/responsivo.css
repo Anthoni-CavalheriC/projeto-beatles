@@ -1,0 +1,63 @@
+@media (max-width: 620px) {
+	.cabecalho {
+		font-size: 12px;
+	}
+
+	.beatles-slider {
+		padding: 0 15px;
+		gap: 10px;
+	}
+
+	.btn-seta {
+		width: 20px;
+		height: 20px;
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.lista-beatles {
+		height: 480px;
+	}
+
+	.cartao .imagem-beatle-paul {
+		max-height: 500px;
+	}
+
+	.cartao .imagem-beatle-lennon {
+		max-height: 280px;
+		max-width: 320px;
+		padding-left: 10px;
+	}
+
+	.cartao .imagem-beatle-george {
+		max-height: 280px;
+		max-width: 280px;
+	}
+
+	.cartao .imagem-beatle-ringo {
+		max-height: 270px;
+		max-width: 230px;
+	}
+
+	.cartao .informacoes .nome.paul {		
+		font-size: 14px;
+	}
+
+	.cartao .informacoes .nome.lennon {
+		font-size: 14px;
+	}
+
+	.cartao .informacoes .nome.george {
+		font-size: 15px;
+	}
+
+	.cartao .informacoes .nome.ringo {
+		font-size: 16px;
+	}
+
+	.cartao .informacoes .instrumentos {
+		font-size: 11px;
+	}
+}
